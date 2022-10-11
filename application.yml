@@ -4,6 +4,6 @@ eureka:
     fetch-registry: true
     service-url:
     #  defaultZone: http://localhost:8761/eureka/
-      defaultZone: http://service_registry:8761/eureka/
+      defaultZone: http://serviceregistry:8761/eureka/
     instance:
-      hostname: service_registry
+      hostname: serviceregistry
